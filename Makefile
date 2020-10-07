@@ -5,7 +5,7 @@
 
 include $(TOPDIR)/rules.mk
 
-LUCI_TITLE:=LuCI support for V2ray Server
+LUCI_TITLE:=LuCI support for V2ray Server - eSir Mod
 LUCI_DEPENDS:=+v2ray 
 LUCI_PKGARCH:=all
 PKG_VERSION:=1.1
