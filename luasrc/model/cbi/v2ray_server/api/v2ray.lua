@@ -171,7 +171,7 @@ local function get_api_json(url)
     return jsonc.parse(json_content) or {}
 end
 
-function get_v2ray_file_path() return "/usr/bin/v2ray" end
+function get_v2ray_file_path() return "/usr/bin" end
 
 function get_v2ray_version()
     if get_v2ray_file_path() and get_v2ray_file_path() ~= "" then
